@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Build-Jdk: 1.7.0_72
-Built-By: satyaprakash.yadav
-Created-By: Maven Integration for Eclipse
-
