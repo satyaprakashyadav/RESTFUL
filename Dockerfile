@@ -4,6 +4,6 @@ RUN apt-get update && apt-get install -y maven
 RUN mkdir /app
 COPY * /app/
 RUN mvn -f /app/pom.xml package
-RUN cp /app/target/RESTFUL-1.0.war /usr/local/tomcat/webapps/
+RUN cp /app/target/RESTFUL.war /usr/local/tomcat/webapps/
 RUN rm -rf /app
 CMD ["catalina.sh", "run"]

@@ -24,6 +24,9 @@
         </configuration>
       </plugin>
     </plugins>
+ 
+    <finalName>${project.artifactId}</finalName>
+
   </build>
   
   <dependencies>
