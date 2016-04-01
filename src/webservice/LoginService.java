@@ -37,7 +37,7 @@ public String getAllUsersList(String username,String password)
  {
  if(userVO.getPassword().equals(password))
  {
- return "Logged in User :"+username;
+ return "Logged in UserName :"+username;
  }
  }
  }
